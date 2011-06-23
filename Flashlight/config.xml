@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <widget xmlns="http://www.w3.org/ns/widgets" height="200" id="http://Flashlight" version="1.0.0" viewmodes="windowed fullscreen" width="200">
+    
+    <name short="Flashlight">Flashlight</name>    
+
+    <description>
+       A simple flashlight application
+    </description>
+    
+    <!-- Note: Author href MUST BE Url encoded 
+        @see http://en.wikipedia.org/wiki/Percent-encoding -->   
+    <author email="tom.arra@nokia.com" href="http://www.tomarra.com">
+        Tom Arra
+    </author>
+    
+    <icon src="img/logo.png"/>
+
+    <content src="index.html"/>
+    
+    <license>
+	   Tom Arra, 2011.
+    </license>
+    
+   	<feature name="nokia://s40.nokia.com/SAWRT/1.0 " required="true" />
+</widget>
