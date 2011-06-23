@@ -1,3 +1,8 @@
+/**
+ * Flashlight
+ * @author Tom Arra
+ */
+
 function init() {
 	var classToUse = "";
 	if (screen.width > 240) {
