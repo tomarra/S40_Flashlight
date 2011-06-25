@@ -1,5 +1,6 @@
 #info {
 	padding: 5px;
+	hight: 15px;
   text-align: center;
 }
 
@@ -33,4 +34,8 @@
 
 .color_black {
   background-color: black;
+}
+
+.dim1 {
+	background-image:url("../img/shade.png");
 }

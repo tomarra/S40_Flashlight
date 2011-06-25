@@ -2,3 +2,21 @@
 	height: 320px;
 	width: 240px;
 }
+
+#dim_controls {
+	margin-top: 170px;
+}
+
+#dim_less_group {
+	width: 120px;
+	height: 50px;
+	text-align: left;
+}
+
+#dim_more_group {
+  width: 120px;
+	height: 50px;
+	margin-top: -50px;
+	margin-left: 120px;
+	text-align: right;
+}
