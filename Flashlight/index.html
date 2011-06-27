@@ -8,26 +8,32 @@
 		<link rel="stylesheet" href="css/basic.css" type="text/css" />
 	  <meta name="Generator" content="Nokia WDE 3.2.0" />
 	</head>
-	<body id="body" class="color0" onload="javascript:init();" onclick="mwl.insertHTML('#info', '');mwl.iterateClass('#body', 'color', 'next', '4', true, '');">
-		<div id="power_button_group">
-			<div id="power_symbol_black" class="show" onclick="mwl.switchClass('#body','color*','color_black');mwl.setGroupTarget('#power_button_group','#power_symbol_white','show','hide');">
-        <img src="img/power_symbol_black.png" alt="Power Off" />
+	<body onload="javascript:init();" >
+		<div id="body" class="color0" onclick="mwl.insertHTML('#info', '');mwl.iterateClass('#body', 'color', 'next', '4', true, '');">
+			<div id="power_button_group">
+				<div id="power_symbol_black" class="show" onclick="mwl.switchClass('#body','color*','color_black');mwl.setGroupTarget('#power_button_group','#power_symbol_white','show','hide');">
+	        <img src="img/power_symbol_black.png" alt="Power Off" />
+				</div>
+				<div id="power_symbol_white" class="hide" onclick="mwl.switchClass('#body','color_black','color0');mwl.setGroupTarget('#power_button_group','#power_symbol_black','show','hide');">
+	        <img src="img/power_symbol_white.png" alt="Power On" />
+				</div>
 			</div>
-			<div id="power_symbol_white" class="hide" onclick="mwl.switchClass('#body','color_black','color3');mwl.setGroupTarget('#power_button_group','#power_symbol_black','show','hide');">
-        <img src="img/power_symbol_white.png" alt="Power On" />
+			
+			<div id="info">
+				Click to the change color.
 			</div>
-		</div>
-		
-		<div id="info">
-			Click to the change color.
-		</div>
-		
-		<div id="dim_controls">
-			<div id="dim_less_group">
-				<div id="dim_lesss_0" class="show" onclick="mwl.removeClass('#body', 'dim1')">Bright</div>
-			</div>
-			<div id="dim_more_group">
-			  <div id="dim_more_0" class="show" onclick="mwl.addClass('#body','dim1');">Dim</div>
+			
+			<div id="dim_controls">
+				<div id="dim_group">
+          <div id="dim_image" class="show" onclick="mwl.addClass('#body','dim1');">
+          	<img src="img/dim.png" alt="Dim" />
+          </div>
+        </div>
+				<div id="bright_group">
+					<div id="bright_image" class="show" onclick="mwl.removeClass('#body', 'dim1')">
+						<img src="img/bright.png" alt="Bright" />
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
