@@ -7,16 +7,16 @@
 	margin-top: 150px;
 }
 
-#dim_less_group {
-	width: 120px;
-	height: 50px;
-	margin-top: -50px;
-  margin-left: 120px;
-	text-align: right;
-}
-
-#dim_more_group {
+#dim_group {
   width: 120px;
 	height: 50px;
 	text-align: left;
+}
+
+#bright_group {
+  width: 120px;
+  height: 50px;
+  margin-top: -50px;
+  margin-left: 120px;
+  text-align: right;
 }
