@@ -33,3 +33,7 @@ A simple yet effective flashlight built for the Nokia S40 Web Apps platform.
 
 * Removing localizations from the config.xml file. The WDE does not like them (even though they are W3C spec) and won't package the web app with them there.
 
+**1.1.4 **
+
+* Adding new logo for the Ovi store listing.
+
