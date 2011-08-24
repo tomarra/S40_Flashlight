@@ -29,3 +29,7 @@ A simple yet effective flashlight built for the Nokia S40 Web Apps platform.
 * Added localizations to the config.xml file for the title
 * As of this version a paid application will also be submitted to the store.
 
+**1.1.3**
+
+* Removing localizations from the config.xml file. The WDE does not like them (even though they are W3C spec) and won't package the web app with them there.
+
